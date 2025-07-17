@@ -1,0 +1,7 @@
+    <!-- Vidéo d’intro (optionnelle) -->
+    <div class="mt-12 w-full max-w-3xl">
+      <video controls class="w-full rounded-xl shadow-2xl border-4 border-[#d4af37]">
+        <source src="video-intro.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la lecture vidéo.
+      </video>
+    </div>
