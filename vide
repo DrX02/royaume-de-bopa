@@ -5,3 +5,412 @@
         Votre navigateur ne prend pas en charge la lecture vidéo.
       </video>
     </div>
+
+
+
+
+
+    <!-- Old index.html -->
+
+    <!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royaume de Bopa - Accueil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#2d1a06] text-white">
+
+
+<!-- Bandeau Royal Amélioré -->
+<header class="bg-[#1f1403] py-4 border-b border-[#d4af37] shadow-md mb-1">
+  <div class="text-center text-[#d4af37] uppercase tracking-widest text-sm font-semibold font-royale">
+    Royaume de Bopa • Monarchie Traditionnelle & Culturelle
+  </div>
+</header>
+
+<!-- Section Royale Hero -->
+<section class="bg-[#2d1a06] text-white py-16 px-4 text-center relative">
+
+  <!-- Éclat visuel -->
+  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-0"></div>
+
+  <div class="relative z-10 max-w-5xl mx-auto">
+<div class="flex flex-wrap justify-center">
+      <!-- Portrait royal -->
+    <div class="w-48 md:w-64 mx-auto rounded-full overflow-hidden border-8 border-[#d4af37] shadow-2xl mb-6">
+      <img src="./assets/hero.jpg" alt="Sa Majesté Houandessi Kinigbé" class="w-full h-full object-cover">
+    </div>
+<div>
+      <!-- Nom et titre -->
+    <h1 class="text-4xl md:text-5xl font-bold font-royale mb-4 text-white leading-tight">
+      Sa Majesté<br><span class="text-[#d4af37]">Houandessi Kinigbé</span>
+    </h1>
+
+    <!-- Citation -->
+    <p class="italic text-lg md:text-xl text-gray-200 max-w-2xl mx-auto mb-10">
+      "La sagesse est le fondement sur lequel repose un règne de paix et de prospérité."
+    </p>
+</div>
+
+</div>
+
+
+    <!-- Boutons royaux -->
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="#sagesse"
+        class="bg-[#d4af37] text-[#2d1a06] hover:bg-[#c9a636] px-6 py-2 rounded-full font-semibold shadow-md transition duration-300">
+        Paroles de sagesse
+      </a>
+      <a href="#histoire"
+        class="bg-transparent border border-[#d4af37] text-[#d4af37] hover:bg-[#d4af37] hover:text-[#2d1a06] px-5 py-2 rounded-full transition duration-300">
+        Histoire & Culture
+      </a>
+      <a href="#projets"
+        class="bg-[#d4af37] text-[#2d1a06] hover:bg-[#c9a636] px-6 py-2 rounded-full font-semibold shadow-md transition duration-300">
+        Développement communautaire
+      </a>
+      <a href="#actualites"
+        class="bg-[#d4af37] text-[#2d1a06] hover:bg-[#c9a636] px-6 py-2 rounded-full font-semibold shadow-md transition duration-300">
+        Actualités Royales
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Présentation du Royaume -->
+  <section id="royaume" class="py-16 bg-[#2d1a06] text-white px-4">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+      <!-- Texte -->
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#d4af37] mb-4">Le Royaume de Bopa</h2>
+        <p class="text-lg leading-relaxed mb-6">
+          Situé au cœur du sud du Bénin, le Royaume de Bopa incarne une tradition séculaire, riche en histoire, en
+          culture et en spiritualité.
+          C’est une terre d’harmonie où les valeurs ancestrales cohabitent avec une vision tournée vers l’avenir.
+          Sous l’égide de Sa Majesté Houandessi Kinigbé, le royaume s’inscrit dans une dynamique de paix, de
+          développement et de rayonnement culturel.
+        </p>
+        <a href="#histoire"
+          class="inline-block bg-[#d4af37] text-[#2d1a06] px-6 py-2 rounded-full font-semibold shadow hover:bg-[#b8962f] transition duration-300">
+          En savoir plus
+        </a>
+      </div>
+
+      <!-- Image -->
+      <div>
+        <img src="./assets/image/Bopa.png" alt="Illustration du Royaume de Bopa"
+          class="w-full rounded-xl shadow-xl border-4 border-[#d4af37]">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Présentation de Sa Majesté -->
+  <section id="roi" class="py-20 bg-[#1f1403] text-white px-4">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+      <!-- Image du Roi -->
+      <div class="text-center md:text-left">
+        <img src="./assets/image/roi1.jpg" alt="Sa Majesté Houandessi Kinigbé"
+          class="w-96 mx-auto md:mx-0 rounded-xl shadow-xl border-4 border-[#d4af37]">
+      </div>
+
+      <!-- Texte -->
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#d4af37] mb-4">Sa Majesté Houandessi Kinigbé</h2>
+        <p class="text-lg leading-relaxed mb-6">
+          Gardien des traditions et visionnaire de son temps, Sa Majesté Houandessi Kinigbé incarne la sagesse, la paix
+          et le progrès pour le peuple de Bopa.
+          Son règne s’inscrit dans la continuité des valeurs royales, tout en ouvrant le royaume aux défis contemporains
+          à travers l’éducation, la culture et le développement communautaire.
+        </p>
+        <a href="#biographie-roi"
+          class="inline-block bg-[#d4af37] text-[#2d1a06] px-6 py-2 rounded-full font-semibold shadow hover:bg-[#b8962f] transition duration-300">
+          Découvrir sa biographie
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section Paroles de Sagesse -->
+  <section id="sagesse" class="py-20 bg-[#2d1a06] text-white px-4">
+    <div class="max-w-5xl mx-auto text-center">
+
+      <!-- Titre -->
+      <h2 class="text-3xl md:text-4xl font-bold text-[#d4af37] mb-6">Paroles de Sagesse</h2>
+
+      <!-- Citation -->
+      <blockquote class="italic text-xl text-gray-200 max-w-3xl mx-auto mb-8 border-l-4 border-[#d4af37] pl-6">
+        “Un peuple éclairé par la sagesse de ses ancêtres marche avec assurance vers la prospérité.”
+      </blockquote>
+
+      <!-- Vidéo ou image illustrative -->
+      <div class="mb-8">
+        <img src="/path/to/sagesse-image.jpg" alt="Émission royale"
+          class="mx-auto rounded-xl shadow-xl w-full max-w-xl border-4 border-[#d4af37]">
+        <!-- OU une vidéo -->
+        <!--
+      <video controls class="mx-auto w-full max-w-xl rounded-xl shadow-xl">
+        <source src="video-sagesse.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la lecture vidéo.
+      </video>
+      -->
+      </div>
+
+      <!-- CTA -->
+      <a href="#paroles-roi"
+        class="inline-block bg-[#d4af37] text-[#2d1a06] px-6 py-2 rounded-full font-semibold shadow hover:bg-[#b8962f] transition duration-300">
+        Explorer toutes les paroles
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Section Développement Communautaire -->
+  <section id="projets" class="py-20 bg-[#1f1403] text-white px-4">
+    <div class="max-w-6xl mx-auto">
+
+      <!-- Titre -->
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-[#d4af37] mb-4">Développement Communautaire</h2>
+        <p class="text-lg text-gray-200 max-w-3xl mx-auto">
+          Le Royaume de Bopa œuvre sans relâche à l’amélioration des conditions de vie de son peuple à travers des
+          projets concrets dans les domaines clés du développement.
+        </p>
+      </div>
+
+      <!-- Grille des projets -->
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Projet 1 -->
+        <div class="bg-[#2d1a06] border border-[#d4af37] rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-[#d4af37] mb-2">Éducation</h3>
+          <p class="text-sm text-gray-300">Construction d’écoles communautaires, bourses royales et soutien aux élèves
+            défavorisés.</p>
+        </div>
+
+        <!-- Projet 2 -->
+        <div class="bg-[#2d1a06] border border-[#d4af37] rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-[#d4af37] mb-2">Santé</h3>
+          <p class="text-sm text-gray-300">Accès aux soins primaires, campagnes de vaccination, construction de
+            dispensaires royaux.</p>
+        </div>
+
+        <!-- Projet 3 -->
+        <div class="bg-[#2d1a06] border border-[#d4af37] rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-[#d4af37] mb-2">Agriculture & Environnement</h3>
+          <p class="text-sm text-gray-300">Formations agricoles, reboisement, soutien aux coopératives rurales et
+            écologie locale.</p>
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mt-12">
+        <a href="#projets-complets"
+          class="inline-block bg-[#d4af37] text-[#2d1a06] px-6 py-2 rounded-full font-semibold shadow hover:bg-[#b8962f] transition duration-300">
+          Découvrir tous les projets
+        </a>
+      </div>
+
+    </div>
+
+
+    <!-- Carrousel Terrain -->
+    <div class="mt-12">
+      <div class="swiper max-w-4xl mx-auto rounded-xl overflow-hidden shadow-2xl border-4 border-[#d4af37]">
+
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <img src="/path/to/photo1.jpg" alt="Projet École" class="w-full h-72 object-cover">
+          </div>
+
+          <!-- Slide 2 (vidéo) -->
+          <div class="swiper-slide">
+            <video controls class="w-full h-72 object-cover">
+              <source src="/path/to/video1.mp4" type="video/mp4">
+              Votre navigateur ne supporte pas les vidéos.
+            </video>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <img src="/path/to/photo2.jpg" alt="Projet Santé" class="w-full h-72 object-cover">
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <img src="/path/to/photo3.jpg" alt="Reboisement" class="w-full h-72 object-cover">
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination text-[#d4af37] mt-2"></div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Section Histoire & Culture -->
+
+  <!-- Section Culture et Patrimoine -->
+  <section id="culture" class="py-20 bg-[#2d1a06] text-white px-4">
+    <div class="max-w-6xl mx-auto">
+
+      <!-- Titre et introduction -->
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-[#d4af37] mb-4">Culture et Patrimoine</h2>
+        <p class="text-lg text-gray-200 max-w-3xl mx-auto">
+          Le Royaume de Bopa est un trésor vivant de traditions. Des cérémonies majestueuses aux danses rituelles,
+          chaque geste exprime l’âme d’un peuple enraciné dans ses valeurs et son histoire.
+        </p>
+      </div>
+
+      <!-- Grille culturelle -->
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- Bloc 1 : Fêtes -->
+        <div class="bg-[#1f1403] p-6 rounded-xl border border-[#d4af37] shadow-lg">
+          <h3 class="text-xl font-semibold text-[#d4af37] mb-2">🎉 Fêtes et cérémonies traditionnelles</h3>
+          <p class="text-gray-300 text-sm">Des rassemblements annuels empreints de spiritualité, de danses sacrées et
+            d’offrandes symboliques.</p>
+        </div>
+
+        <!-- Bloc 2 : Musique -->
+        <div class="bg-[#1f1403] p-6 rounded-xl border border-[#d4af37] shadow-lg">
+          <h3 class="text-xl font-semibold text-[#d4af37] mb-2">🥁 Musiques, danses et tenues royales</h3>
+          <p class="text-gray-300 text-sm">Les rythmes du tam-tam royal, les danses de réjouissance et les habits
+            d’apparat incarnent l’identité du royaume.</p>
+        </div>
+
+        <!-- Bloc 3 : Sites -->
+        <div class="bg-[#1f1403] p-6 rounded-xl border border-[#d4af37] shadow-lg">
+          <h3 class="text-xl font-semibold text-[#d4af37] mb-2">⛰ Sites sacrés et touristiques</h3>
+          <p class="text-gray-300 text-sm">Collines royales, forêts ancestrales, points d’eau sacrés : des lieux
+            porteurs de mémoire et de spiritualité.</p>
+        </div>
+
+        <!-- Bloc 4 : Galerie -->
+        <div class="bg-[#1f1403] p-6 rounded-xl border border-[#d4af37] shadow-lg">
+          <h3 class="text-xl font-semibold text-[#d4af37] mb-2">📸 Galerie photos et vidéos culturelles</h3>
+          <p class="text-gray-300 text-sm">Revivez en images les moments forts du patrimoine : processions, danses,
+            habits royaux et transmissions orales.</p>
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mt-12">
+        <a href="#galerie-culturelle"
+          class="inline-block bg-[#d4af37] text-[#2d1a06] px-6 py-2 rounded-full font-semibold shadow hover:bg-[#b8962f] transition duration-300">
+          Explorer la galerie culturelle
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer Royal -->
+  <footer class="bg-[#1f1403] text-white pt-12 pb-6 px-4 border-t-4 border-[#d4af37]">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-8">
+
+      <!-- Bloc 1 : Devise -->
+      <div>
+        <h3 class="text-lg font-bold text-[#d4af37] mb-2">Notre Devise</h3>
+        <p class="text-sm text-gray-300 italic">"Unité, Sagesse et Prospérité pour le peuple de Bopa."</p>
+      </div>
+
+      <!-- Bloc 2 : Liens -->
+      <div>
+        <h3 class="text-lg font-bold text-[#d4af37] mb-2">Liens utiles</h3>
+        <ul class="text-sm text-gray-300 space-y-1">
+          <li><a href="#sagesse" class="hover:underline">Paroles de sagesse</a></li>
+          <li><a href="#culture" class="hover:underline">Culture & Patrimoine</a></li>
+          <li><a href="#projets" class="hover:underline">Projets Royaux</a></li>
+          <li><a href="#actualites" class="hover:underline">Actualités Royales</a></li>
+          <li><a href="#contact" class="hover:underline">Contact / Palais Royal</a></li>
+        </ul>
+      </div>
+
+      <!-- Bloc 3 : Réseaux sociaux -->
+      <div>
+        <h3 class="text-lg font-bold text-[#d4af37] mb-2">Suivez-nous</h3>
+        <div class="flex items-center gap-4 text-[#d4af37] text-xl">
+          <a href="https://facebook.com" target="_blank" title="social" aria-label="Facebook" class="hover:text-white">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank" title="social" aria-label="YouTube" class="hover:text-white">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://wa.me/229XXXXXXXXX" target="_blank" title="social" aria-label="WhatsApp" class="hover:text-white">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Bloc 4 : Informations -->
+      <div>
+        <h3 class="text-lg font-bold text-[#d4af37] mb-2">Informations</h3>
+        <ul class="text-sm text-gray-300 space-y-1">
+          <li><a href="#newsletter" class="hover:underline">S’abonner à la newsletter</a></li>
+          <li><a href="#" class="hover:underline">Mentions légales</a></li>
+          <li><a href="#" class="hover:underline">Politique de confidentialité</a></li>
+          <li><a href="#" class="hover:underline">Changer de langue : FR | Fon</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Signature -->
+    <div class="mt-8 text-center text-sm text-gray-400 border-t border-[#d4af37] pt-4">
+      © 2025 Royaume de Bopa. Tous droits réservés.
+    </div>
+  </footer>
+
+
+  <!-- Footer -->
+  <!-- <footer class="mt-16 py-6 border-t border-[#d4af37] text-center text-sm text-[#d4af37]">
+    © 2025 Royaume de Bopa • Tous droits réservés
+  </footer> -->
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+
+</body>
+
+</html>
